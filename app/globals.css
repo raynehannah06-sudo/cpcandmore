@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --color-ink: #0a0a0a;
+  --color-surface: #ffffff;
+  --color-accent: #d11a1a;
+  --color-muted: #6b7280;
+  --color-ink-soft: #1a1a1a;
+  --color-border: #2a2a2a;
+}
+
+@theme inline {
+  --color-ink: var(--color-ink);
+  --color-surface: var(--color-surface);
+  --color-accent: var(--color-accent);
+  --color-muted: var(--color-muted);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-border: var(--color-border);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Hazard-stripe utility */
+.hazard-stripe {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 8px,
+    rgba(209, 26, 26, 0.15) 8px,
+    rgba(209, 26, 26, 0.15) 16px
+  );
+}
