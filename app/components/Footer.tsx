@@ -79,8 +79,8 @@ export default function Footer() {
               </li>
               <li className="mt-2">
                 <span className="text-gray-600 font-bold uppercase tracking-wider text-xs block">Email</span>
-                <a href="mailto:raynehannah06@gmail.com" className="hover:text-[#d11a1a] transition-colors">
-                  raynehannah06@gmail.com
+                <a href="mailto:cpc@cpcandmore.com" className="hover:text-[#d11a1a] transition-colors">
+                  cpc@cpcandmore.com
                 </a>
               </li>
               <li className="mt-2">
