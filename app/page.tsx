@@ -308,10 +308,10 @@ export default function Home() {
                       Email
                     </p>
                     <a
-                      href="mailto:cpc@cpcandmore.com"
+                      href="mailto:raynehannah06@gmail.com"
                       className="text-white hover:text-[#d11a1a] transition-colors text-sm"
                     >
-                      cpc@cpcandmore.com
+                      raynehannah06@gmail.com
                     </a>
                   </div>
                 </div>
