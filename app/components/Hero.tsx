@@ -97,7 +97,7 @@ export default function Hero() {
                   alt="Commercial Pro Clean & More — Shield logo"
                   width={280}
                   height={280}
-                  className="object-contain p-8"
+                  className="object-contain p-8 translate-x-3 lg:translate-x-5"
                   priority
                 />
               </div>
