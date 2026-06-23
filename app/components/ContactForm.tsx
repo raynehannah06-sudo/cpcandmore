@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, FormEvent } from "react";
+import { useState, useEffect, FormEvent } from "react";
 import { Send, CheckCircle, AlertCircle, Loader2 } from "lucide-react";
 
 interface FormData {
@@ -65,6 +65,13 @@ export default function ContactForm() {
   const [form, setForm] = useState<FormData>(EMPTY);
   const [errors, setErrors] = useState<Partial<FormData>>({});
   const [status, setStatus] = useState<Status>("idle");
+  // Work order number — generated client-side after mount to avoid SSR
+  // hydration mismatch (Date.now() differs between server and client render).
+  const [orderNo, setOrderNo] = useState<string>("------");
+
+  useEffect(() => {
+    setOrderNo(Date.now().toString().slice(-6));
+  }, []);
 
   const validate = (): boolean => {
     const e: Partial<FormData> = {};
@@ -128,7 +135,7 @@ export default function ContactForm() {
           Work Order Request
         </span>
         <div className="flex-1 h-px bg-white/30" />
-        <span className="text-white/60 text-xs font-mono">CPC-{Date.now().toString().slice(-6)}</span>
+        <span className="text-white/60 text-xs font-mono">CPC-{orderNo}</span>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">

@@ -111,9 +111,9 @@ export async function POST(req: NextRequest) {
   //
   // Sign up at twilio.com → get a free number → copy SID, token, and number
   if (
-    process.env.TWILIO_ACCOUNT_SID &&
+    process.env.TWILIO_ACCOUNT_SID?.startsWith("AC") &&
     process.env.TWILIO_AUTH_TOKEN &&
-    process.env.TWILIO_FROM_NUMBER
+    process.env.TWILIO_FROM_NUMBER?.startsWith("+")
   ) {
     try {
       const client = twilio(
