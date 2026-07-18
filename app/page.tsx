@@ -24,6 +24,7 @@ import Footer from "@/app/components/Footer";
 import Section, { SectionHeading } from "@/app/components/Section";
 import ServiceCard from "@/app/components/ServiceCard";
 import ScheduleTable from "@/app/components/ScheduleTable";
+import Work from "@/app/components/Work";
 import ContactForm from "@/app/components/ContactForm";
 
 // ─── Services ────────────────────────────────────────────────────────────────
@@ -265,7 +266,18 @@ export default function Home() {
           </div>
         </Section>
 
-        {/* 6 · Contact */}
+        {/* 6 · Our Work */}
+        <Section id="work" dark>
+          <SectionHeading
+            eyebrow="Our Work"
+            title="Before & After"
+            subtitle="Real jobs across the Georgia–Florida line — from grease hazard to code-ready, documented every time."
+            light
+          />
+          <Work />
+        </Section>
+
+        {/* 7 · Contact */}
         <Section id="contact" dark>
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
             {/* Info panel */}
