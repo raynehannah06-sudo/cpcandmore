@@ -94,7 +94,7 @@ export default function Hero() {
               <div className="relative w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 flex items-center justify-center bg-[#1a1a1a] rounded-full border border-[#2a2a2a]">
                 <Image
                   src="/logo.png"
-                  alt="Commercial Pro Clean & More — Shield logo"
+                  alt="Commercial Pro Clean — Shield logo"
                   width={280}
                   height={280}
                   className="object-contain p-8 translate-x-3 lg:translate-x-5"

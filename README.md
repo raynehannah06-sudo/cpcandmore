@@ -1,6 +1,6 @@
-# Commercial Pro Clean & More — Marketing Website
+# Commercial Pro Clean — Marketing Website
 
-Modern marketing website for **Commercial Pro Clean & More, LLC** (Valdosta, GA). Built with Next.js 16 App Router, Tailwind CSS v4, and lucide-react.
+Modern marketing website for **Commercial Pro Clean** (Valdosta, GA). Built with Next.js 16 App Router, Tailwind CSS v4, and lucide-react.
 
 ---
 

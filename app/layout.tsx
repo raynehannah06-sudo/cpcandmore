@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Commercial Pro Clean & More, LLC | Commercial Cleaning — Valdosta, GA",
+  title: "Commercial Pro Clean | Commercial Cleaning — Valdosta, GA",
   description:
     "NFPA 96 & IKECA compliant hood cleaning, grease trap service, pressure washing, and commercial facility cleaning serving the Florida–Georgia line region from Valdosta, GA.",
   keywords: [
@@ -28,17 +28,17 @@ export const metadata: Metadata = {
     "Florida Georgia",
   ],
   openGraph: {
-    title: "Commercial Pro Clean & More, LLC",
+    title: "Commercial Pro Clean",
     description:
       "Professional commercial cleaning — hood & exhaust, grease traps, pressure washing, and more. Serving the FL–GA line from Valdosta, GA.",
     url: "https://www.cpcandmore.com",
-    siteName: "Commercial Pro Clean & More",
+    siteName: "Commercial Pro Clean",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Commercial Pro Clean & More, LLC",
+        alt: "Commercial Pro Clean",
       },
     ],
     type: "website",

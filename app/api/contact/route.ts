@@ -18,7 +18,7 @@ function isValidEmail(email: string) {
 
 function buildEmailBody(body: ContactPayload): string {
   return `
-New Work Order Request — Commercial Pro Clean & More
+New Work Order Request — Commercial Pro Clean
 =====================================================
 
 Name:          ${body.name}

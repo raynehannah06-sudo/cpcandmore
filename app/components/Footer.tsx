@@ -24,7 +24,7 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <Image
                 src="/logo.png"
-                alt="Commercial Pro Clean & More logo"
+                alt="Commercial Pro Clean logo"
                 width={48}
                 height={48}
                 className="object-contain"
@@ -34,7 +34,7 @@ export default function Footer() {
                   Commercial Pro
                 </span>
                 <span className="block text-[#d11a1a] font-bold text-xs tracking-widest uppercase">
-                  Clean &amp; More, LLC
+                  Clean
                 </span>
               </div>
             </div>
@@ -105,7 +105,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-10 pt-6 border-t border-[#1a1a1a] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-600">
-          <p>© {year} Commercial Pro Clean &amp; More, LLC. All rights reserved.</p>
+          <p>© {year} Commercial Pro Clean. All rights reserved.</p>
           <p className="flex items-center gap-3">
             <span className="w-1.5 h-1.5 bg-[#d11a1a] inline-block" />
             Licensed &amp; Insured

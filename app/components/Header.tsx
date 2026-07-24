@@ -46,7 +46,7 @@ export default function Header() {
           <a href="#hero" onClick={() => handleNav("#hero")} className="flex items-center gap-3 group">
             <Image
               src="/logo.png"
-              alt="Commercial Pro Clean & More logo"
+              alt="Commercial Pro Clean logo"
               width={44}
               height={44}
               className="object-contain"
@@ -57,7 +57,7 @@ export default function Header() {
                 Commercial Pro
               </span>
               <span className="block text-[#d11a1a] font-bold text-xs tracking-widest uppercase">
-                Clean &amp; More, LLC
+                Clean
               </span>
             </div>
           </a>
