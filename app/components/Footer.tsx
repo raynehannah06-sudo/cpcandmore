@@ -105,7 +105,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-10 pt-6 border-t border-[#1a1a1a] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-600">
-          <p>© {year} Commercial Pro Clean. All rights reserved.</p>
+          <p>© {year} Commercial Pro Clean, LLC. All rights reserved.</p>
           <p className="flex items-center gap-3">
             <span className="w-1.5 h-1.5 bg-[#d11a1a] inline-block" />
             Licensed &amp; Insured
